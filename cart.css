@@ -1,0 +1,64 @@
+#parentdiv {
+    padding: 20px;
+}
+#productinformation {
+    margin-bottom: 20px;
+}
+.cartimages {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+}
+.btn {
+    padding: 5px 10px;
+    margin: 2px;
+}
+.btn-danger {
+    background-color: red;
+    color: white;
+}
+#emptyalert {
+    display: none;
+    color: red;
+    font-weight: bold;
+}
+#yourtotal {
+    margin-top: 20px;
+}
+.quantity-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quantity-label {
+    background-color: white;
+    width: 30%;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    margin: 0 5px;
+}
+#parentdiv{
+    display: flex;
+    width: 50%;
+    padding: 10px;
+    background-color: #2980b9;
+    margin: 0 auto;
+    border-radius: 20px;
+    
+}
+#productinformation .cartimages{
+    width: 200px;
+    height: 200px;
+}
+#yourtotal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#yourtotal h4{
+    color: white;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
